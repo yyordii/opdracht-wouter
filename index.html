@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aroma - Premium Koffie</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <svg class="coffee-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                <line x1="6" y1="1" x2="6" y2="4"/>
+                <line x1="10" y1="1" x2="10" y2="4"/>
+                <line x1="14" y1="1" x2="14" y2="4"/>
+            </svg>
+            <span class="logo-text">Café Aroma</span>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#menu" class="nav-link">Menu</a>
+            <a href="#about" class="nav-link">Over Ons</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Welkom bij
+                    <span class="hero-subtitle">Café Aroma</span>
+                </h1>
+                <p class="hero-description">
+                    Ontdek de perfecte koffie-ervaring in het hart van de stad. Elke kop wordt met liefde en passie bereid van de beste koffiebonen.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Bekijk Menu</button>
+                    <button class="btn btn-secondary">Reserveer Tafel</button>
+                </div>
+            </div>
+            <div class="hero-illustration">
+                <!-- Zelfgemaakte vectorillustratie -->
+                <svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="coffee-illustration">
+                    <!-- Achtergrond cirkel -->
+                    <circle cx="200" cy="150" r="140" fill="#F3E8D0" opacity="0.3" />
+
+                    <!-- Koffiekopje -->
+                    <path d="M120 180 L120 220 Q120 240 140 240 L240 240 Q260 240 260 220 L260 180 Z" fill="#8B4513" />
+                    <path d="M125 185 L125 215 Q125 230 140 230 L240 230 Q255 230 255 215 L255 185 Z" fill="#D2691E" />
+
+                    <!-- Koffie in kopje -->
+                    <ellipse cx="190" cy="185" rx="65" ry="8" fill="#3E2723" />
+
+                    <!-- Handvat -->
+                    <path d="M260 200 Q280 200 280 220 Q280 240 260 240" stroke="#8B4513" stroke-width="8" fill="none" />
+
+                    <!-- Schotel -->
+                    <ellipse cx="190" cy="245" rx="80" ry="12" fill="#8B4513" />
+                    <ellipse cx="190" cy="242" rx="75" ry="10" fill="#D2691E" />
+
+                    <!-- Stoom -->
+                    <path d="M170 170 Q175 150 170 130 Q165 110 170 90" stroke="#E0E0E0" stroke-width="3" fill="none" opacity="0.7" />
+                    <path d="M190 175 Q195 155 190 135 Q185 115 190 95" stroke="#E0E0E0" stroke-width="3" fill="none" opacity="0.7" />
+                    <path d="M210 170 Q215 150 210 130 Q205 110 210 90" stroke="#E0E0E0" stroke-width="3" fill="none" opacity="0.7" />
+
+                    <!-- Koffiebonen decoratie -->
+                    <g transform="translate(80, 100)">
+                        <ellipse cx="0" cy="0" rx="8" ry="12" fill="#8B4513" transform="rotate(15)" />
+                        <path d="M-2 -8 L2 8" stroke="#654321" stroke-width="1" />
+                    </g>
+
+                    <g transform="translate(300, 120)">
+                        <ellipse cx="0" cy="0" rx="8" ry="12" fill="#8B4513" transform="rotate(-20)" />
+                        <path d="M-2 -8 L2 8" stroke="#654321" stroke-width="1" />
+                    </g>
+
+                    <g transform="translate(90, 200)">
+                        <ellipse cx="0" cy="0" rx="6" ry="9" fill="#8B4513" transform="rotate(45)" />
+                        <path d="M-1 -6 L1 6" stroke="#654321" stroke-width="1" />
+                    </g>
+
+                    <g transform="translate(310, 200)">
+                        <ellipse cx="0" cy="0" rx="6" ry="9" fill="#8B4513" transform="rotate(-45)" />
+                        <path d="M-1 -6 L1 6" stroke="#654321" stroke-width="1" />
+                    </g>
+
+                    <!-- Decoratieve sterren -->
+                    <g transform="translate(100, 80)">
+                        <path d="M0 -8 L2 -2 L8 -2 L3 2 L5 8 L0 4 L-5 8 L-3 2 L-8 -2 L-2 -2 Z" fill="#FFD700" opacity="0.6" />
+                    </g>
+
+                    <g transform="translate(320, 80)">
+                        <path d="M0 -6 L1.5 -1.5 L6 -1.5 L2.25 1.5 L3.75 6 L0 3 L-3.75 6 L-2.25 1.5 L-6 -1.5 L-1.5 -1.5 Z" fill="#FFD700" opacity="0.6" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+    <div class="container">
+        <h2 class="section-title">Waarom Café Aroma?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                        <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                        <line x1="6" y1="1" x2="6" y2="4"/>
+                        <line x1="10" y1="1" x2="10" y2="4"/>
+                        <line x1="14" y1="1" x2="14" y2="4"/>
+                    </svg>
+                </div>
+                <h3>Premium Koffie</h3>
+                <p>Zorgvuldig geselecteerde koffiebonen van de beste plantages wereldwijd</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+                    </svg>
+                </div>
+                <h3>Vakmanschap</h3>
+                <p>Onze barista's zijn getraind in de kunst van het perfecte kopje koffie</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                </div>
+                <h3>Gezellige Sfeer</h3>
+                <p>Een warme, uitnodigende ruimte perfect voor werk, ontspanning of ontmoetingen</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="menu">
+    <div class="container">
+        <h2 class="section-title">Onze Specialiteiten</h2>
+        <div class="menu-grid">
+            <div class="menu-card">
+                <h3>Espresso</h3>
+                <p>Klassieke Italiaanse espresso</p>
+                <span class="price">€2,50</span>
+            </div>
+            <div class="menu-card">
+                <h3>Cappuccino</h3>
+                <p>Met perfecte melkschuim</p>
+                <span class="price">€3,50</span>
+            </div>
+            <div class="menu-card">
+                <h3>Latte Art</h3>
+                <p>Kunstwerk in je kopje</p>
+                <span class="price">€4,00</span>
+            </div>
+            <div class="menu-card">
+                <h3>Cold Brew</h3>
+                <p>Langzaam getrokken, zacht van smaak</p>
+                <span class="price">€3,75</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h2>Bezoek Ons</h2>
+                <div class="contact-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                        <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                    <span>Koffiestraat 123, 1234 AB Amsterdam</span>
+                </div>
+                <div class="contact-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polyline points="12,6 12,12 16,14"/>
+                    </svg>
+                    <span>Ma-Vr: 7:00-19:00 | Za-Zo: 8:00-18:00</span>
+                </div>
+                <div class="contact-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    <span>020-123-4567</span>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h3>Nieuwsbrief</h3>
+                <p>Blijf op de hoogte van onze nieuwe koffies en evenementen</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Je e-mailadres" required>
+                    <button type="submit" class="btn btn-primary">Aanmelden</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <svg class="coffee-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                    <line x1="6" y1="1" x2="6" y2="4"/>
+                    <line x1="10" y1="1" x2="10" y2="4"/>
+                    <line x1="14" y1="1" x2="14" y2="4"/>
+                </svg>
+                <span>Café Aroma</span>
+            </div>
+            <p>&copy; 2024 Café Aroma. Alle rechten voorbehouden.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
